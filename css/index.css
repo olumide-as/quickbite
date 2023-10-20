@@ -117,3 +117,9 @@ form input[type="text"] {
     font-weight: bold;
 }
 
+@media screen and (max-width:640px) {
+    .restaurant-list{
+        width: fit-content;
+    }
+  }
+
