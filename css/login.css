@@ -1,0 +1,56 @@
+.login-form {
+    background-image: url('https://res.cloudinary.com/dz2fc3ioz/image/upload/v1697546914/Ayeni/quickbite/handrawn-barbecue-elements_copy_v59epq.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding:200px 0px;
+    display: flex;
+}
+
+.login-form h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #252322;
+}
+
+form {
+    background-color: #252322;
+    padding: 50px;
+    border-radius: 10px;
+    width: 400px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+
+form input, label {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+
+form a{
+    color: #ffa114;
+}
+
+@media screen and (max-width:640px) {
+
+    .login-form h2 {
+        font-size: 24px;
+    }
+
+    .login-form {
+        padding: 100px 0;
+    }
+
+
+    form{
+        width: fit-content;
+    }
+  }
+  
