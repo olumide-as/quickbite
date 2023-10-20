@@ -126,6 +126,10 @@ footer {
         flex-direction: column;
         padding:0px 30px;
     }
+
+    .container {
+        padding: 20px 5px;
+    }
   }
 
 
