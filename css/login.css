@@ -26,12 +26,12 @@ form {
     flex-direction: column;
   }
 
-form input, label {
+.form input {
     padding: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
-    margin-bottom: 10px;
 }
 
 form a{
@@ -45,7 +45,7 @@ form a{
     }
 
     .login-form {
-        padding: 100px 0;
+        padding: 200px 0;
     }
 
 

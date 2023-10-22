@@ -44,7 +44,8 @@ header {
 
 .nav-items{
  display: flex;
- justify-content: space-between; 
+ justify-content: space-around; 
+ flex-wrap: wrap;
 }
 
 nav {    
@@ -59,6 +60,20 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
+.search-form {
+    display: flex;
+    padding: 10px;
+}
+
+.search-form input{
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
 
 /* Button Styles */
 .btn {
@@ -70,7 +85,7 @@ nav ul li {
     font-weight: lighter;
     font-size: 16px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition:  0.3s ease;
     border: none;
     font-family: 'Nunito', sans-serif;
     
@@ -118,10 +133,6 @@ footer {
         font-size: 24px;
     }
 
-    .btn{
-        margin: 10px 0px;
-    }
-
     .footer-nav{
         flex-direction: column;
         padding:0px 30px;
@@ -130,6 +141,8 @@ footer {
     .container {
         padding: 20px 5px;
     }
+
+
   }
 
 

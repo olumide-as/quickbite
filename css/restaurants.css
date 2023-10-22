@@ -20,9 +20,9 @@
 
 .restaurant {
     background-color: #fff;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 .restaurant-list{
     border: 1px solid #ddd;
@@ -61,4 +61,16 @@
     color: #ffa114;
     font-weight: bold;
 }
+
+@media screen and (max-width:1024px) {
+    .restaurant{
+     grid-template-columns: auto auto;
+    }
+   }
+
+@media screen and (max-width:640px) {
+   .restaurant{
+    grid-template-columns: auto;
+   }
+  }
 

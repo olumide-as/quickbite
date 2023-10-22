@@ -13,12 +13,7 @@
     align-items: center;
 }
 
-@media screen and (max-width:768px) {
-    .hero{
-        background-position: top;
-        background-size: 150%;
-    }
-  }
+
 
 
 /* Center the content vertically and horizontally */
@@ -40,12 +35,12 @@
 }
 
 /* Form Styles*/
-.form {
+.postcode-form {
     margin-top: 20px;
     text-align: center;
 }
 
-form input[type="text"] {
+.postcode-form input{
     width: 70%;
     padding: 10px;
     margin-right: 10px;
@@ -117,9 +112,20 @@ form input[type="text"] {
     font-weight: bold;
 }
 
+@media screen and (max-width:768px) {
+    .hero{
+        background-position: top;
+        background-size: 150%;
+    }
+  }
+
 @media screen and (max-width:640px) {
     .restaurant-list{
         width: fit-content;
     }
+
+    .postcode-form input{
+        margin: 10px;
   }
+}
 
